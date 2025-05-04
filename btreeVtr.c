@@ -28,12 +28,6 @@ int main(){
     generateTree(0,tam - 1, 0);
     int resposta = -1;
     while(resposta != 0){
-        printf("\n");
-        for (int i = 0; i < tam; i++)
-        {
-            printf("%d ",*btree[i]);
-        }
-        
         printf("\n       MENU\n1 - exibir arvore\n2 - exibir valor minimo\n3 - exibir valor maximo\n4 - procurar valor\n5 - sucessor ou predecessor\n6 - inserir\n7 - remover\n8 - tam\n0 - sair\n");
         fgets(buffer,50,stdin);
         resposta = atoi(buffer);
@@ -157,9 +151,6 @@ int main(){
                     }
                 }
             }
-            break;
-            case 8:
-            printf("%d",tam);
             break;
             case 0:
                 printf("\nprograma finalizado");
