@@ -10,7 +10,7 @@ These vertices are connected by “paths” (edges) that link one to another.
 An adjacency list stores, for each vertex, all the vertices it is connected to.
 This structure allows us to implement search algorithms based on the graph’s connections.
 
-**Advantages and Disadvantages of Using Adjacency Lists**
+**Advantages and Disadvantages of using adjacency lists**
 
 **Advantages:**
 
@@ -28,7 +28,7 @@ This structure allows us to implement search algorithms based on the graph’s c
 
 *Alternative:* An adjacency matrix can be lighter and faster in some scenarios, but is more complex to maintain and implement.
 
-**Search Algorithms Implemented**
+**Search algorithms implemented**
 
 Graphs can use different search algorithms to find the shortest path between two vertices or check reachability (which vertices can be accessed
 from another). In this implementation, the directed graph uses the DFS (Depth-First Search) algorithm, which goes as deep as possible
