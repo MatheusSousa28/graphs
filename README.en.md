@@ -36,3 +36,5 @@ along a path before backtracking and exploring others, making it great for check
 graph uses the BFS (Breadth-First Search) algorithm, which visits all neighbors of a vertex before going deeper, allowing us to 
 determine the shortest path between vertices. DFS and BFS are not exclusive to directed or undirected graphs and work on both types, 
 the choice depends on the search’s purpose.
+
+[Read this in Brazilian Portuguese](README.pt.md)
